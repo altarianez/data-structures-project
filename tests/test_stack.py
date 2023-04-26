@@ -44,3 +44,4 @@ class StackTest(TestCase):
         self.assertEqual(stack.pop(), 'data2')
         self.assertEqual(stack.pop(), 'data1')
         self.assertEqual(stack.pop(), None)
+
